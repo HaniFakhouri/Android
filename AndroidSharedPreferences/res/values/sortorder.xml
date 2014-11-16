@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sortentries">
+        <item>Ascending</item>
+        <item>Descending</item>
+    </string-array>
+    <string-array name="sortvalues">
+        <item>Ascending</item>
+        <item>Descending</item>
+    </string-array>      
+</resources>

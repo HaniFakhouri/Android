@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:key="preferences">
+
+    <PreferenceCategory
+            android:title="My Preferences">
+        <ListPreference android:title="Sort Countries" android:key="pref_sort_order" android:entryValues="@array/sortvalues" android:entries="@array/sortentries"/><ListPreference android:entryValues="@array/colorvalues" android:key="pref_font_color" android:entries="@array/colorentries" android:title="Font Color"/>
+        <EditTextPreference android:title="Font Size" android:key="pref_font_size"/>
+        
+        <ListPreference android:title="Background Color" android:key="pref_bg_color" android:entryValues="@array/colorvalues" android:entries="@array/colorentries"/>
+
+    </PreferenceCategory>
+    
+        
+</PreferenceScreen>
